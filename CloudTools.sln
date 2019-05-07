@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnalysisUK.CloudTools.DnsUpdater", "AnalysisUK.CloudTools.DnsUpdater\AnalysisUK.CloudTools.DnsUpdater.csproj", "{6B58C869-4333-4D11-824E-BC43B9AFCABD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudTools.AutoShutdown.OnStart", "AnalysisUK.CloudTools.AutoShutdown.OnStart\CloudTools.AutoShutdown.OnStart.csproj", "{AC856489-9C12-4119-ADC6-7E2EA9A3971F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AutoShutdown", "AutoShutdown", "{70676746-A7A5-46A4-A946-40928E99FACE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudTools.AutoShutdown.SetShutdownTime", "AnalysisUK.CloudTools.AutoShutdown.SetShutdownTime\CloudTools.AutoShutdown.SetShutdownTime.csproj", "{0CD8655A-9550-42C2-8945-756DA9AED212}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudTools.AutoShutdown.Shutdowner", "AnalysisUK.CloudTools.AutoShutdown.Shutdowner\CloudTools.AutoShutdown.Shutdowner.csproj", "{646C2F7C-EEBB-4234-9440-962D3E765588}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B58C869-4333-4D11-824E-BC43B9AFCABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B58C869-4333-4D11-824E-BC43B9AFCABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B58C869-4333-4D11-824E-BC43B9AFCABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B58C869-4333-4D11-824E-BC43B9AFCABD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC856489-9C12-4119-ADC6-7E2EA9A3971F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC856489-9C12-4119-ADC6-7E2EA9A3971F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC856489-9C12-4119-ADC6-7E2EA9A3971F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC856489-9C12-4119-ADC6-7E2EA9A3971F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CD8655A-9550-42C2-8945-756DA9AED212}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CD8655A-9550-42C2-8945-756DA9AED212}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CD8655A-9550-42C2-8945-756DA9AED212}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CD8655A-9550-42C2-8945-756DA9AED212}.Release|Any CPU.Build.0 = Release|Any CPU
+		{646C2F7C-EEBB-4234-9440-962D3E765588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{646C2F7C-EEBB-4234-9440-962D3E765588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{646C2F7C-EEBB-4234-9440-962D3E765588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{646C2F7C-EEBB-4234-9440-962D3E765588}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AC856489-9C12-4119-ADC6-7E2EA9A3971F} = {70676746-A7A5-46A4-A946-40928E99FACE}
+		{0CD8655A-9550-42C2-8945-756DA9AED212} = {70676746-A7A5-46A4-A946-40928E99FACE}
+		{646C2F7C-EEBB-4234-9440-962D3E765588} = {70676746-A7A5-46A4-A946-40928E99FACE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2915CDA4-8BD6-421B-B532-ADFB94ED2E48}
+	EndGlobalSection
+EndGlobal
