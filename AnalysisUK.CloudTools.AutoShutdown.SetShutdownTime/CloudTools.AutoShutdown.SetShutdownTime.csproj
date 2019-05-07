@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
+    <AWSProjectType>Lambda</AWSProjectType>
+    <AssemblyName>CloudTools.AutoShutdown.SetShutdownTime</AssemblyName>
+    <RootNamespace>CloudTools.AutoShutdown.SetShutdownTime</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Amazon.Lambda.Core" Version="1.1.0" />
+    <PackageReference Include="Amazon.Lambda.Serialization.Json" Version="1.4.0" />
+    <PackageReference Include="Amazon.Lambda.SNSEvents" Version="1.1.0" />
+    <PackageReference Include="AWSSDK.EC2" Version="3.3.106.2" />
+  </ItemGroup>
+</Project>

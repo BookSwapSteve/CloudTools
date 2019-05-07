@@ -1,0 +1,22 @@
+
+{
+    "Information" : [
+        "This file provides default values for the deployment wizard inside Visual Studio and the AWS Lambda commands added to the .NET Core CLI.",
+        "To learn more about the Lambda commands with the .NET Core CLI execute the following command at the command line in the project root directory.",
+        "dotnet lambda help",
+        "All the command line options for the Lambda command can be specified in this file."
+    ],
+    "profile"     : "Analysis UK",
+    "region"      : "eu-west-1",
+    "configuration" : "Release",
+    "framework"     : "netcoreapp2.1",
+    "function-runtime" : "dotnetcore2.1",
+    "function-memory-size" : 512,
+    "function-timeout"     : 15,
+    "function-handler"     : "CloudTools.AutoShutdown.OnStart::CloudTools.AutoShutdown.OnStart.Startup::FunctionHandler",
+    "function-name"        : "OnStart",
+    "function-description" : "AutoShutdown - EC2 start watcher. Notified SetShutdown time when an instance is started",
+    "function-role"        : "arn:aws:iam::141267893320:role/service-role/AutoShutdown",
+    "tracing-mode"         : "PassThrough",
+    "environment-variables" : "\"TopicArn\"=\"arn:aws:sns:eu-west-1:141267893320:AutoShutdown\""
+}
